@@ -1,0 +1,139 @@
+*
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+    align-content: center;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .icon {
+        display: inline-block;
+    }
+    .u-{
+        display: block;
+        top: 0px;
+        right: 0px;
+        left:0px;
+        margin-top: 52px;
+        background-color: rgba(0, 0, 0, 8);
+        z-index: 1000;
+        overflow: auto;
+        background: #fff;
+    }
+    .gg{
+        display: inline-block;
+        padding: 19px 0;
+        text-align: center;
+        color:#fff;
+        max-width: 100%;
+        width: auto;
+        background: #fff;
+    }
+    footer{
+        height: auto;
+        width: auto;
+    }
+    .pc{
+        height: auto;
+        width: auto;
+        display: block;
+    }
+}
+
+
+
+
+.header_picture {
+    position: relative;
+    width: 1700px;
+    height: 950px;
+    min-width: auto;
+    max-width: 100%;
+    
+}
+.pc{
+    height: 900px;
+    width: 1700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+}
+.header_text{
+    position: absolute;
+    top: 50%;
+    color: coral;
+    width: 350px;
+    text-align: center;
+    font: bold 24px/34px Helvetica, Sans-serif;
+    margin-left: 700px;
+    font-size: 3em;
+    max-width: 100%;
+}
+
+
+.u-{
+    text-align: center;
+    
+}
+.gg{
+    width: 20%;
+    height: auto;
+}
+
+
+
+
+
+
+.footer_t{
+    position: relative;
+    top: 200px;
+    font: bold 24px/34px Helvetica, Sans-serif;
+    align-items: center;
+}
+.picture_footer{
+    transform: translateY(47%);
+    width: 1700px;
+    height: 500px;
+    position: absolute;
+    max-width: 100%;
+}
+footer{
+    min-height: 80%;
+    width: 100%;
+}
+footer p{
+    float: left;
+    max-width: 100%;
+    width: 20%;
+    margin: 0 auto;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+

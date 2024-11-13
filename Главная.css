@@ -1,0 +1,220 @@
+*
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+    align-content: center;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    min-height: auto;
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .main{
+        display: block;
+        top: 0px;
+        right: 0px;
+        left:0px;
+        margin-top: 52px;
+        background-color: rgba(0, 0, 0, 8);
+        z-index: 1000;
+        overflow: auto;
+        background: #fff;
+    }
+    
+}
+
+header div h2{
+    float: left;
+    max-width: 100%;
+    width: 20%;
+    margin: 0 auto;
+}
+.header_picture {
+    position: relative;
+    width: 1700px;
+    height: 950px;
+}
+.pc{
+    height: 900px;
+    width: 1700px;
+    min-width: 100%;
+    position: absolute;
+}
+.header_text1{
+    position: absolute;
+    color: lemonchiffon;
+    width: 350px;
+    text-align: center;
+    font: bold 24px/34px Helvetica, Sans-serif;
+    margin-left: 700px;
+    font-size: 330%;
+    line-height: 0.9em;
+}
+.a1{
+    transform: translateY(-259%);
+    margin-left: 530px;
+}
+.main_text{
+    font-family: 'Montserrat', Sans-serif;
+    color: coral;
+    margin-left: 20px;
+}
+.a2{
+    transform: translateY(-384%);
+    margin-left: 1000px;  
+}   
+.a3{
+    transform: translateY(-304%);
+    margin-left: 530px;
+}
+.main{
+    transform: translateY(100%);
+}
+.a4{
+    transform: translateY(-445%);
+    margin-left: 1000px;
+}
+.main_picture1{
+    position: absolute;
+    border-radius: 25%;
+    transform: translateY(128%);
+    margin-left: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.text_picture1{
+    position: absolute;
+    top: 2665px;
+    color: coral;
+    width: 350px;
+    text-align: center;
+    font: bold 24px/34px Helvetica, Sans-serif;
+    margin-left: 440px;
+    font-size: 200%;
+}
+.main_picture2{
+    position: absolute;
+    border-radius: 25%;
+    transform: translateY(240%);
+    margin-left: 425px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.text_picture2{
+    position: absolute;
+    top: 3000px;
+    color: coral;
+    width: 350px;
+    text-align: center;
+    font: bold 24px/34px Helvetica, Sans-serif;
+    margin-left: 445px;
+    font-size: 200%;
+}
+.main_picture3{
+    position: absolute;
+    border-radius: 25%;
+    top: 2230px;
+    align-items: center;
+    left:660px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.text_picture3{
+    position: absolute;
+    color: coral;
+    width: 350px;
+    text-align: center;
+    font: bold 24px/34px Helvetica, Sans-serif;
+    margin-left: 680px;
+    font-size: 200%;
+    top: 2330px
+}
+.main_picture4{
+    position: absolute;
+    border-radius: 25%;
+    transform: translateY(130%);
+    left: 870px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.text_picture4{
+    position: absolute;
+    top: 2665px;
+    color: coral;
+    width: 350px;
+    text-align: center;
+    font: bold 24px/34px Helvetica, Sans-serif;
+    left: 885px;
+    font-size: 200%;
+}
+.main_picture5{
+    position: absolute;
+    border-radius: 25%;
+    transform: translateY(240%);
+    left: 870px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.text_picture5{
+    position: absolute;
+    top: 3000px;
+    color: coral;
+    width: 350px;
+    text-align: center;
+    font: bold 24px/34px Helvetica, Sans-serif;
+    left: 885px;
+    font-size: 200%;
+    
+}
+.picture_footer{
+    top:3400px;
+    width: 1700px;
+    height: 500px;
+    position: absolute;
+    min-width: 100%;
+}
+.footer_t{
+    position: relative;
+    top: 1350px;
+    font: bold 24px/34px Helvetica, Sans-serif;
+    align-items: center;
+    margin-left: 700px;
+}
+footer{
+    min-height: auto;
+    width: 100%;
+}
+footer p{
+    float: left;
+    max-width: 100%;
+    width: 20%;
+    margin: 0 auto;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
